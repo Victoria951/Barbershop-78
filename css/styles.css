@@ -1,4 +1,50 @@
+/* :root{
+    --main-font:'Open Sans', sans-serif;
+} */
+
+/* @font-face {
+    font-family: Open-700;
+    src: url(../fonts/OpenSans-Bold.ttf);
+} */
+
 body{
     color: ;
-    font-size: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
+}
+
+.site-body {
+}
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+}
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.header-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.9em;
+    text-transform: uppercase;
+    color: #ffffff;
 }
