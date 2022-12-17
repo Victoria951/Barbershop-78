@@ -1,6 +1,12 @@
-/* :root{
-    --main-font:'Open Sans', sans-serif;
-} */
+:root{
+    --first-title-color:#ffffff;
+    --second-title-color:#303030;
+    --first-btn-color:#ffffff;
+    --second-btn-color:#303030;
+    --main-text-color:#303030;
+    --tepical-lh:1.36;
+    --accent-color:#ff6c00;
+} 
 
 /* @font-face {
     font-family: Open-700;
@@ -8,13 +14,23 @@
 } */
 
 body{
-    color: ;
+    color:aqua ;
     font-family: 'Open Sans', sans-serif;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
 }
 
 .site-body {
 }
+
+/* HEADER */
+
 .header {
+    background-color: gray;
 }
 .header-navigation {
 }
@@ -28,20 +44,20 @@ body{
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
-    color: #ffffff;
+    color: var(--first-title-color);
     letter-spacing: 0.1em;
 }
 
 .header-link:hover,
 .header-link:focus{
-  color:#ff6c00;
+  color:var(--accent-color);
 }
 
 .header-tel {
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
-    color: #ffffff;
+    color:var(--first-title-color);
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
@@ -52,5 +68,160 @@ body{
     line-height: 1.33;
     letter-spacing: 0.9em;
     text-transform: uppercase;
-    color: #ffffff;
+    color:var(--first-btn-color);
+    cursor: pointer;
+}
+
+
+ /* HERO */
+
+ .hero {
+    background-color: #525151;
+}
+.hero-list {
+}
+
+.hero-item {
+}
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color:var(--second-title-color);
+}
+.hero-link:hover,
+.hero-link:focus{
+   color: var(--accent-color); 
+}
+
+
+.hero-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+   color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color:var(--first-title-color);
+}
+.hero-after-title {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+ /* ABOUT */
+
+.about {
+}
+.about-list {
+}
+
+.about-item {
+}
+.about-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color:var(--second-title-color);
+}
+.about-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: var(--second-title-color);
+}
+.about-after-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+.about-text {
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+.about-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+    cursor: pointer;
+}
+
+/* PRICES */
+
+.prices {
+    background-color: #303030;
+}
+.prices-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);    
+}
+.prices-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color:var(--first-title-color);
+
+}
+.praces-list {
+}
+
+.prices-item {
+}
+.prices-item-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+.prices-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--second-btn-color);
+}
+
+/* BENEFITS */
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item.count {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color:#303030;
+}
+.benefits-item-text {
+}
+.benefits-pre-title {
+}
+.benefits-title {
+}
+.benefits-after-title {
 }
